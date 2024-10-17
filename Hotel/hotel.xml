@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Hotel SYSTEM "hotel.dtd">
+<Hotel name="Mia's Resort" stars="5">
+    <Rooms>
+        <Room id="C1">
+            <RoomName suite="yes" floor="3" wifi="yes">Red Room</RoomName>
+            <Capacity value="2">2</Capacity>
+            <BedTypes>
+                <QueenBed>1</QueenBed>
+            </BedTypes>
+            <Views>
+                <View>Sea</View>
+                <View>Mountain</View>
+            </Views>
+            <Amenities>
+                <Amenity>Air Conditioning</Amenity>
+                <Amenity>Heating</Amenity>
+                <Amenity>Television</Amenity>
+                <Amenity>Coffee Maker</Amenity>
+                <Amenity>Electric Kettle</Amenity>
+                <Amenity>Safe</Amenity>
+                <Amenity>Iron and Ironing Board</Amenity>
+                <Amenity>Telephone</Amenity>
+                <Amenity>Hair Dryer</Amenity>
+                <Amenity>Fridge</Amenity>
+                <Amenity>Kitchenette</Amenity>
+                <Amenity>Bathrobes</Amenity>
+                <Amenity>Slippers</Amenity>
+                <Amenity>Toiletries</Amenity>
+                <Amenity>Luxury Linens</Amenity>
+                <Amenity>Private Balcony</Amenity>
+                <Amenity>Jacuzzi</Amenity>
+                <Amenity>Streaming Services</Amenity>
+                <Amenity extra_charge="yes">Mini Bar</Amenity>
+                <Amenity extra_charge="yes">In-Room Dining</Amenity>
+                <Amenity extra_charge="yes">Daily Housekeeping</Amenity>
+                <Amenity extra_charge="yes">Room Service</Amenity>
+                <Amenity extra_charge="yes">Laundry Service</Amenity>
+                <Amenity extra_charge="yes">Private Dining</Amenity>
+                <Amenity extra_charge="yes">Parking</Amenity>
+                <Amenity extra_charge="yes">Spa Treatments</Amenity>
+                <Amenity extra_charge="yes">Airport Shuttle</Amenity>
+            </Amenities>
+            <Prices>
+                <Price season="low">100</Price>
+                <Price season="medium">150</Price>
+                <Price season="high">200</Price>
+            </Prices>
+        </Room>
+        <Room id="C2">
+            <RoomName suite="yes" floor="3" wifi="yes">Red Room</RoomName>
+            <Capacity value="2">2</Capacity>
+            <BedTypes>
+                <QueenBed>1</QueenBed>
+            </BedTypes>
+            <Views>
+                <View>Sea</View>
+                <View>Mountain</View>
+            </Views>
+            <Amenities>
+                <Amenity>Air Conditioning</Amenity>
+                <Amenity>Heating</Amenity>
+                <Amenity>Television</Amenity>
+                <Amenity>Coffee Maker</Amenity>
+                <Amenity>Electric Kettle</Amenity>
+                <Amenity>Safe</Amenity>
+                <Amenity>Iron and Ironing Board</Amenity>
+                <Amenity>Telephone</Amenity>
+                <Amenity>Hair Dryer</Amenity>
+                <Amenity>Fridge</Amenity>
+                <Amenity>Kitchenette</Amenity>
+                <Amenity>Bathrobes</Amenity>
+                <Amenity>Slippers</Amenity>
+                <Amenity>Toiletries</Amenity>
+                <Amenity>Luxury Linens</Amenity>
+                <Amenity>Private Balcony</Amenity>
+                <Amenity>Jacuzzi</Amenity>
+                <Amenity>Streaming Services</Amenity>
+                <Amenity extra_charge="yes">Mini Bar</Amenity>
+                <Amenity extra_charge="yes">In-Room Dining</Amenity>
+                <Amenity extra_charge="yes">Daily Housekeeping</Amenity>
+                <Amenity extra_charge="yes">Room Service</Amenity>
+                <Amenity extra_charge="yes">Laundry Service</Amenity>
+                <Amenity extra_charge="yes">Private Dining</Amenity>
+                <Amenity extra_charge="yes">Parking</Amenity>
+                <Amenity extra_charge="yes">Spa Treatments</Amenity>
+                <Amenity extra_charge="yes">Airport Shuttle</Amenity>
+            </Amenities>
+            <Prices>
+                <Price season="low">100</Price>
+                <Price season="medium">150</Price>
+                <Price season="high">200</Price>
+            </Prices>
+        </Room>
+        <Room id="A1">
+            <RoomName suite="no" floor="1" wifi="yes">Family Room</RoomName>
+            <Capacity value="4">4</Capacity>
+            <BedTypes>
+                <SingleBed>2</SingleBed>
+                <DoubleBed>1</DoubleBed>
+                <SofaBed>1</SofaBed>
+            </BedTypes>
+            <Views>
+                <View>Garden</View>
+            </Views>
+            <Amenities>
+                <Amenity>Air Conditioning</Amenity>
+                <Amenity>Heating</Amenity>
+                <Amenity>Television</Amenity>
+                <Amenity>Safe</Amenity>
+                <Amenity>Iron and Ironing Board</Amenity>
+                <Amenity>Telephone</Amenity>
+                <Amenity>Hair Dryer</Amenity>
+                <Amenity>Fridge</Amenity>
+                <Amenity>Kitchenette</Amenity>
+                <Amenity>Private Balcony</Amenity>
+                <Amenity>Streaming Services</Amenity>
+                <Amenity extra_charge="yes">Mini Bar</Amenity>
+                <Amenity extra_charge="yes">In-Room Dining</Amenity>
+                <Amenity extra_charge="yes">Daily Housekeeping</Amenity>
+                <Amenity extra_charge="yes">Room Service</Amenity>
+                <Amenity extra_charge="yes">Laundry Service</Amenity><Amenity extra_charge="yes">Private Dining</Amenity>
+                <Amenity extra_charge="yes">Parking</Amenity>
+                <Amenity extra_charge="yes">Spa Treatments</Amenity>
+                <Amenity extra_charge="yes">Airport Shuttle</Amenity>
+            </Amenities>
+            <Prices>
+                <Price season="low">120</Price>
+            </Prices>
+        </Room>
+    </Rooms>
+    <Offers>
+        <Offer roomId="C1 C2" price="180">
+            <Name>Double Date Offer</Name>
+            <Period from="2024-09-01" to="2024-09-30"/>
+        </Offer>
+    </Offers>
+</Hotel>

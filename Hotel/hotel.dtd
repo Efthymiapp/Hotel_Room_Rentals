@@ -1,0 +1,49 @@
+<!ELEMENT Hotel (Rooms, Offers)>
+<!ATTLIST Hotel
+    name CDATA #REQUIRED
+    stars CDATA #REQUIRED>
+
+<!ELEMENT Rooms (Room+)>
+<!ELEMENT Room (RoomName, Capacity, BedTypes?, Views?, Amenities?, Prices)>
+<!ATTLIST Room
+    id ID #REQUIRED>
+
+<!ELEMENT RoomName (#PCDATA)>
+<!ATTLIST RoomName
+    suite (yes|no) "no"
+    floor CDATA #IMPLIED
+    wifi (yes|no) "yes">
+
+<!ELEMENT Capacity (#PCDATA)>
+<!ATTLIST Capacity
+    value (1|2|3|4) #REQUIRED>
+
+<!ELEMENT BedTypes (SingleBed?, DoubleBed?, QueenBed?, SofaBed?)>
+<!ELEMENT SingleBed (#PCDATA)>
+<!ELEMENT DoubleBed (#PCDATA)>
+<!ELEMENT QueenBed (#PCDATA)>
+<!ELEMENT SofaBed (#PCDATA)>
+
+<!ELEMENT Views (View+)>
+<!ELEMENT View (#PCDATA)>
+
+<!ELEMENT Amenities (Amenity*)>
+<!ELEMENT Amenity (#PCDATA)>
+<!ATTLIST Amenity
+    extra_charge (yes|no) "no">
+
+<!ELEMENT Prices (Price*)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Price
+    season (low|medium|high) #REQUIRED>
+
+<!ELEMENT Offers (Offer*)>
+<!ELEMENT Offer (Name?, Period)>
+<!ATTLIST Offer
+    roomId IDREFS #REQUIRED
+    price CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Period EMPTY>
+<!ATTLIST Period
+    from CDATA #REQUIRED
+    to CDATA #REQUIRED>
